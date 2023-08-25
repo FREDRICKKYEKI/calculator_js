@@ -1,0 +1,14 @@
+{
+    "name": "Simple Calculator",
+    "version": "1.0.0",
+    "description": "A Simple Calculator Extension",
+    "manifest_version": 3,
+    "author": "Fredrick Isaac",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Calculator"
+    },
+	"content_security_policy": {
+		"extension_pages": "script-src 'self' 'unsafe-eval; object-src 'self'" 
+	}
+}

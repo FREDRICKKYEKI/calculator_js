@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="eval.js"></script>
+    <script defer src="calc_tests.js"></script>
+    <script defer src="script.js"></script>
+
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calc-area">
+        <div class='calc'>
+            <div class="title">
+                Calculator
+                <span>cas!o</span>
+            </div>
+            <div class="screen">
+                <span class="res"></span>
+            </div>
+            <div class='btn-grp'>
+                <button class="calc-btn">7</button>
+                <button class="calc-btn">8</button>
+                <button class="calc-btn">9</button>
+            </div>
+            <div class='btn-grp'>
+                <button class="calc-btn">4</button>
+                <button class="calc-btn">5</button>
+                <button class="calc-btn">6</button>
+            </div>
+            <div class='btn-grp'>
+                <button class="calc-btn">1</button>
+                <button class="calc-btn">2</button>
+                <button class="calc-btn">3</button>
+            </div>
+            <div class='btn-grp'>
+                <button class="calc-btn">0</button>
+                <button class="calc-btn"><b>.</b></button>
+                <button class="calc-btn">=</button>
+            </div>
+            <div class="ops">
+                <button class="calc-btn" id='op'>+</button>
+                <button class="calc-btn" id='op'>-</button>
+                <button class="calc-btn" id='op'>/</button>
+                <button class="calc-btn" id='op'>*</button>
+                <button class="calc-btn">C</button>
+            </div>
+            <button class="calc-btn" onclick="clearMem()">Clear Memory</button>
+        </div>
+    </div>
+
+    <div class="tests-div">
+        <button class="tests-btn">Run Tests</button>
+        <button class="close-btn">Close</button>
+        <div class="res-status"></div>
+        <div class="tests"></div>
+    </div>
+</body>
+
+</html>
