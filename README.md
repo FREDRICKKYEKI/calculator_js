@@ -15,7 +15,7 @@ Unlike some calculators, this project does not utilize the `eval()` function, en
 
 ## Demo
 
-<!-- [See the live demo](https://your-demo-link.com) -->
+ [See the live demo](https://calculator-by-fred.netlify.app/)
 
 ## Getting Started
 
@@ -28,7 +28,7 @@ Unlike some calculators, this project does not utilize the `eval()` function, en
 1. Enter expressions using the calculator's interface.
 2. Click up or down key on the keyboard to access cache to retrieve and reuse cached expressions.
 3. Enjoy secure and efficient calculations without the use of `eval()`.
-4. Feel free to check the tests that I tested to ensure the calculator works efficiently.
+4. Feel free to run the tests that I used to ensure the calculator works efficiently.
 
 ## Contributing
 
